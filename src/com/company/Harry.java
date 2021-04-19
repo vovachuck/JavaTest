@@ -78,4 +78,109 @@ public class Harry {
         Files.write(Paths.get(fileOutput), listString.getBytes());
 
     }
+    /* Output:
+    the=3628
+    and=1919
+    to=1856
+    a=1688
+    he=1528
+    of=1259
+    harry=1214
+    was=1186
+    it=1026
+    in=964
+    his=937
+    you=863
+    said=794
+    had=702
+    i=652
+    on=636
+    at=625
+    that=601
+    they=597
+    as=526
+    the=3628
+    and=1919
+    to=1856
+    a=1688
+    he=1528
+    of=1259
+    harry=1214
+    was=1186
+    it=1026
+    in=964
+    his=937
+    you=863
+    said=794
+    had=702
+    i=652
+    on=636
+    at=625
+    that=601
+    they=597
+    as=526
+    2161
+
+
+
+
+    "A
+
+
+    "Absolutely,"
+
+
+    "Ah
+
+
+    "Ah,
+
+
+    "Aha!"
+
+
+    "All
+
+
+    "Always
+
+
+    "An'
+
+
+    "And
+
+
+    "Anyway,
+
+
+    "Are
+
+
+    "Asked
+
+
+    "B-b-but
+
+
+    "B-but
+
+
+    "Barking,"
+
+
+    "Be
+
+
+    "Bet
+
+
+    "Blimey,
+
+
+    "Blown
+
+    Process finished with exit code 0
+
+     */
 }
