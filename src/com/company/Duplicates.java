@@ -23,6 +23,6 @@ public class Duplicates {
         int[] array = {1,5,3,6,2,9,33,21};
         System.out.println(hasDuplicates(array));  // false
         array[5] = 1;
-        //System.out.println(hasDuplicatesViaSet(array)); // true
+        System.out.println(hasDuplicates(array)); // true
     }
 }
