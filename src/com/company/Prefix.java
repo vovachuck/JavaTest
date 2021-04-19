@@ -10,9 +10,9 @@ package com.company;
 public class Prefix {
 
     public static String prefix(String[] array) {
-        String prefix = "";
+        StringBuilder prefix = new StringBuilder();
         for (int i = 0; i < array[0].length(); i++) {
-            prefix += array[0].charAt(i);
+            prefix.append(array[0].charAt(i));
             for (int j = 1; j < array.length; j++) {
                 if(array[j].charAt(i)!=prefix.charAt(i)){
                     return prefix.substring(0,i);
@@ -20,7 +20,7 @@ public class Prefix {
             }
 
         }
-        return prefix;
+        return prefix.toString();
     }
 
     public static void main(String[] args) {
@@ -40,4 +40,5 @@ public class Prefix {
 
 
     }
+
 }
